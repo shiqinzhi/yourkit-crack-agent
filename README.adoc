@@ -5,12 +5,12 @@
 :sectnums:
 :stem:
 
-== Movitation
+== Motivation
 
 Crack Yourkit by java agent.
 
 == Step
 
 . Download released agent jar file.
-. Edit exec line of `profile.sh` in Yourkit installation directory: `exec "$YD/../jdk/Contents/Home/bin/java" $D64 $JAVA_HEAP_LIMIT $INI_PARAMS $UI_PARAMS -javaagent:/path/to/yourkit-crack-agent.jar`
-. Execute `profile.sh` .
+. Edit _exec_ line of `profile.sh` in Yourkit installation directory, add `javaagent` argument: `exec "$YD/../jdk/Contents/Home/bin/java" $D64 $JAVA_HEAP_LIMIT $INI_PARAMS $UI_PARAMS -javaagent:/path/to/yourkit-crack-agent.jar`
+. Execute `profile.sh` manually to launch Yourkit.
